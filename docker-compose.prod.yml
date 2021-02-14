@@ -3,7 +3,7 @@ version: "3"
 services:
   drupal:
     build: docker/drupal
-      network: host
+    network_mode: host
     restart: always
     volumes:
       - ./drupal-data/modules:/var/www/html/modules
