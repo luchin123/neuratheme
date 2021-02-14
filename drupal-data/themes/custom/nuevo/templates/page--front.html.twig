@@ -1,0 +1,243 @@
+{% extends "themes/custom/nuevo/templates/base.html.twig" %}
+
+{% block previous %}
+<section class="w3l-main-slider" id="home">
+  <!-- main-slider -->
+  <div class="companies20-content">
+   
+    <div class="owl-one owl-carousel owl-theme">
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view bg bg2">
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg">
+                  <h5>We Provide total Health care solution</h5>
+                  <p>Donec maximus erat quis magna tincidunt, et ullamcorper ex condimentum. Pellentesque 
+                    volutpat lectus felis, sit amet dapibus tortor convallis sit amet. Quisque egestas sem quis 
+                    augue porta, et iaculis massa consequat.</p>
+                  <a class="btn btn-style btn-style-outline mt-sm-5 mt-4" href="services.html"> Our Services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info  banner-view banner-top1 bg bg2">
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg">
+                  <h5>Helping you to stay Happy one</h5>
+                  <p>Donec maximus erat quis magna tincidunt, et ullamcorper ex condimentum. Pellentesque 
+                    volutpat lectus felis, sit amet dapibus tortor convallis sit amet. Quisque egestas sem quis 
+                    augue porta, et iaculis massa consequat.</p>
+                    <a class="btn btn-style btn-style-outline mt-sm-5 mt-4" href="services.html"> Our Services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view banner-top2 bg bg2">
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg">
+                  <h5>1 Lakh+ Patients trusted in our Hospital.</h5>
+                  <p>Donec maximus erat quis magna tincidunt, et ullamcorper ex condimentum. Pellentesque 
+                    volutpat lectus felis, sit amet dapibus tortor convallis sit amet. Quisque egestas sem quis 
+                    augue porta, et iaculis massa consequat.</p>
+                    <a class="btn btn-style btn-style-outline mt-sm-5 mt-4" href="services.html"> Our Services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view banner-top3 bg bg2" >
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg">
+                  <h5>The Largest and most respected Agencies</h5>
+                  <p>Donec maximus erat quis magna tincidunt, et ullamcorper ex condimentum. Pellentesque 
+                    volutpat lectus felis, sit amet dapibus tortor convallis sit amet. Quisque egestas sem quis 
+                    augue porta, et iaculis massa consequat.</p>
+                    <a class="btn btn-style btn-style-outline mt-sm-5 mt-4" href="services.html"> Our Services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- /main-slider -->
+</section>
+{% endblock %}
+
+{% block main %}
+<section class="w3l-features-photo-7 py-5">
+      <div class="w3l-features-photo-7_sur py-lg-5 py-sm-3">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 w3l-features-photo-7_top-left">
+                      {{ page.home_presentacion }}
+                      <div class="feat_top">
+                          <div class="w3l-features-photo-7-box">
+                              <div class="icon">
+                                <img src="{{ base_path ~ directory }}/assets/images/heart.png" class="img-fluid"/>
+                              </div>
+                              <div class="info-feature">
+                                  <h5 class="w3l-features-photo-7-box-txt"><a href="#url">Heart Attack</a></h5>
+                                  <p>Proin a diam et dui elit, orci urna vel id neque. Donec sed enim</p>
+                              </div>
+                          </div>
+                          <div class="w3l-features-photo-7-box">
+                            <div class="icon">
+                              <img src="{{ base_path ~ directory }}/assets/images/icon1.png" class="img-fluid"/>
+                            </div>
+                              <div class="info-feature">
+                                  <h5 class="w3l-features-photo-7-box-txt"><a href="#url">Transplant Surgery</a></h5>
+                                  <p>Proin a diam et dui elit, orci urna vel id neque. Donec sed enim</p>
+                              </div>
+                          </div>
+                          <div class="w3l-features-photo-7-box">
+                            <div class="icon">
+                              <img src="{{ base_path ~ directory }}/assets/images/sthethoscope.png" class="img-fluid"/>
+                            </div>
+                              <div class="info-feature">
+                                  <h5 class="w3l-features-photo-7-box-txt"><a href="#url">Surgery specialist</a></h5>
+                                  <p>Proin a diam et dui elit, orci urna vel id neque. Donec sed enim</p>
+                              </div>
+                          </div>
+                          <div class="w3l-features-photo-7-box">
+                            <div class="icon">
+                              <img src="{{ base_path ~ directory }}/assets/images/ambulance.png" class="img-fluid"/>
+                            </div>
+                              <div class="info-feature">
+                                  <h5 class="w3l-features-photo-7-box-txt"><a href="#url">Physiotheraphy</a></h5>
+                                  <p>Proin a diam et dui elit, orci urna vel id neque. Donec sed enim</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 w3l-features-photo-7_top-right mt-lg-0 mt-4">
+                      {{ page.home_presentacionfoto }}
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- //w3l-features-photo-7 -->
+<section class="w3l-video-sec">
+	<div class="video-inner py-5">
+		<div class="overlay1 py-lg-5 py-sm-3">
+			<div class="container">
+				<div class="video-content">
+					<img src="{{ base_path ~ directory }}/assets/images/heart-big.png" class="img-fluid" alt="" />
+					{{ page.home_slogan }}>
+					<a href="#notify" class="play-button btn"><span class="fa fa-play pl-1" aria-hidden="true">
+
+						</span></a>
+
+					<!-- notify-popup-->
+					<div id="notify" class="notify-pop-overlay">
+						<div class="notify-popup">
+							<h5>Excellent Health Care Systems</h5>
+							<iframe src="https://player.vimeo.com/video/180825357" frameborder="0"
+								allow="autoplay; fullscreen" allowfullscreen></iframe>
+							<a class="close" href="#close">&times;</a>
+						</div>
+					</div>
+					<!-- //notify-popup -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- services page block 1 -->
+<section class="w3l-features py-5">
+    <div class="container py-lg-5 py-3">
+        <div class="row main-cont-wthree-2">
+            <div class="col-lg-6 feature-grid-right">
+                {{ page.home_serviciosimg }}
+            </div>
+            <div class="col-lg-6 feature-grid-left mt-lg-0 mt-sm-5 mt-4">
+                {{ page.home_servicios }}
+                <div class="stats_main text-center">
+                    <div class="w3l-stats">
+                        <div class="">
+                            <img src="{{ base_path ~ directory }}/assets/images/patients.png" class="img-fluid">
+                        </div>
+                        <div class="info-feature mt-3">
+                            <h5 class="w3l-stats-txt"><a href="#url">1,754</a></h5>
+                            <p class="stats-text">Patients</p>
+                        </div>
+                    </div>
+                    <div class="w3l-stats">
+                        <div class="">
+                            <img src="{{ base_path ~ directory }}/assets/images/services.png" class="img-fluid">
+                        </div>
+                        <div class="info-feature mt-3">
+                            <h5 class="w3l-stats-txt"><a href="#url">457</a></h5>
+                            <p class="stats-text">Services</p>
+                        </div>
+                    </div>
+                    <div class="w3l-stats">
+                        <div class="">
+                            <img src="{{ base_path ~ directory }}/assets/images/award.png" class="img-fluid">
+                        </div>
+                        <div class="info-feature mt-3">
+                            <h5 class="w3l-stats-txt"><a href="#url">1,395</a></h5>
+                            <p class="stats-text">Awards</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- services page block 1 -->
+<section class="w3l-apply-6" id="appointment">
+	<!-- /apply-6-->
+	<div class="apply-info py-5">
+		<div class="container py-lg-5 py-sm-3">
+			<div class="apply-grids-info row">
+				<div class="apply-gd-left col-lg-5">
+					{{ page.home_cita }}
+					<div class="mt-lg-5 mt-4">
+						{{ page.home_serviciosv }}
+					</div>
+				</div>
+				<div class="apply-gd-right offset-lg-1 col-lg-6 mt-lg-0 mt-5">
+					<div class="apply-form p-sm-5 p-4">
+						<h5>Reserva tu cita</h5>
+						{{ page.home_citaformulario }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //apply-6-->
+<section class="w3l-call-to-action_9 py-5">
+    <div class="call-w3">
+        <div class="container">
+            <div class=" main-cont-wthree-2">
+                <div class="left-contect-calls text-center">
+                    <h3 class="title mb-sm-5 mb-4">Certificados & Estandares</h3>
+                  <div class="call-grids-w3 ">
+                        {{ page.home_certificados }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

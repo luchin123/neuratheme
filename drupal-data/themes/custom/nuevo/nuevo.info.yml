@@ -1,0 +1,33 @@
+name: NUEVO
+type: theme
+description: Tema principal del sitio web de NEURA CUSCO
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: false
+libraries:
+  - nuevo/global-styling
+regions:
+  header: Header
+  main_nav: Menú principal
+  secondary_nav: Menú secundario
+  help: Ayuda
+  content: Content
+  footer: Footer
+  footer_1: Footer 1
+  footer_2: Footer 2
+  footer_3: Footer 3
+  footer_4: Footer 4
+
+  urgencia: Urgencia
+
+  home_slide: Home Slider
+  home_presentacion: Home Presentacion
+  home_presentacionfoto: Home Presentacion Foto
+  home_slogan: Home Slogan
+  home_serviciosimg: Home Servicios Imagen
+  home_servicios: Home Servicios
+  home_cita: Home Cita
+  home_serviciosv: Home Servicios Vista
+  home_citaformulario: Home Cita Formulario
+  home_certificados: Home Certificados
+

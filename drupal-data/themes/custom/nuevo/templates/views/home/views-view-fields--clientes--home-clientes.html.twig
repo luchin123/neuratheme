@@ -1,0 +1,20 @@
+{% set foto = fields.field_foto_cliente.content %}
+{% set texto = fields.body.content %}
+
+{% set enlace = fields.field_enlace_cliente.content %}
+{% set the_url = path('entity.node.canonical', {'node': enlace|striptags|number_format }) %}
+<div class="cliente-item">
+  <div class="row">
+    <div class="col-md-9">
+      <figure>
+        {{ foto }}
+      </figure>
+    </div>
+    <div class="col-md-3">
+      <p class="cliente-text text-small">{{ texto }}</p>
+      <p class="text-right">
+        <a href="{{ the_url }}" class="btn-link">Leer más...</a>
+      </p>
+    </div>
+  </div>
+</div>
