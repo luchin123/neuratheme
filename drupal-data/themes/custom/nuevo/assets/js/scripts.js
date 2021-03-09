@@ -40,8 +40,8 @@
           margin: 0,
           nav: false,
           responsiveClass: true,
-          autoplay: false,
-          autoplayTimeout: 5000,
+          autoplay: true,
+          autoplayTimeout: 4000,
           autoplaySpeed: 1000,
           autoplayHoverPause: false,
           responsive: {
