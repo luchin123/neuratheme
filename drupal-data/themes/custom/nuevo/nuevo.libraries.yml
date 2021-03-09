@@ -3,6 +3,7 @@ global-styling:
     assets/js/bootstrap.min.js: {}
     assets/js/owl.carousel.js: {}
     assets/js/scripts.js: {}
+    assets/js/hack.js: {}
   css:
     component:
       assets/css/style-starter.css: {}
