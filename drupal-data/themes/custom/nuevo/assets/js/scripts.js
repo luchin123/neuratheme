@@ -1,8 +1,8 @@
 (function ($, Drupal) {
     Drupal.behaviors.nuevo = {
       attach: function attach(context, settings) {
-
-
+        $('.navbar-nav li', context)
+          .addClass('nav-item');
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function () {
         scrollFunction()
@@ -68,11 +68,4 @@
         $('body').toggleClass('noscroll');
       })
     }};
-    Drupal.behaviors.nuevo = {
-      attach: function(context, settings) {
-      
-      $('.navbar-nav li', context)
-      .addClass('nav-item');
-      }
-    };
 })(jQuery, Drupal);
