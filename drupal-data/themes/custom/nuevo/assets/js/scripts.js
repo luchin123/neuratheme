@@ -67,7 +67,12 @@
       $('.navbar-toggler').click(function () {
         $('body').toggleClass('noscroll');
       })
-
-
     }};
+    Drupal.behaviors.nuevo = {
+      attach: function(context, settings) {
+      
+      $('.navbar-nav li', context)
+      .addClass('nav-item');
+      }
+    };
 })(jQuery, Drupal);
