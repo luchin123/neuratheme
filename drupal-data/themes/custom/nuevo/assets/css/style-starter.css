@@ -9898,6 +9898,7 @@ h3.title {
   .align-left {
     width: 100%;
     height: 100%;
+    padding-bottom: 10px;
   }
   .w3l-bootstrap-header .navbar-expand-md .navbar-collapse {
     display: none !important; }
