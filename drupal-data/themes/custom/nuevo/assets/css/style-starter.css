@@ -9895,6 +9895,9 @@ h3.title {
   background-color: #17449e; }
 
 @media (max-width: 768px) {
+  .align-left {
+    width: 100%;
+  }
   .w3l-bootstrap-header .navbar-expand-md .navbar-collapse {
     display: none !important; }
   .w3l-bootstrap-header .accounts {
