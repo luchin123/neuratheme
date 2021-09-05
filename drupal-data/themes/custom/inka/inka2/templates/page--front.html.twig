@@ -1,0 +1,160 @@
+{% extends "themes/custom/inka/templates/base.html.twig" %}
+{% block video %}
+	<div data-vide-bg="{{ base_path ~ directory }}/video/farm">
+	{% endblock %}
+	{% block finvideo %}
+	</div>
+{% endblock %}
+
+{% block main %}
+
+	<!--/slider-->
+	<div class="banner_wthree_agile_info">
+		<div class="slider">
+			<div class="callbacks_container">
+				<ul class="rslides callbacks callbacks1" id="slider4">
+					<li>
+						<div class="agileits-banner-info">
+							<h4>La Mejor experiencia</h4>
+							<h3>Los Mejores Destinos</h3>
+							<p>Comodidad</p>
+							<div class="more">
+								<a href="single.html" class="hvr-shutter-in-vertical">
+									Read More<span class="glyphicon glyphicon-arrow-right"></span>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="agileits-banner-info">
+							<h4>Los Mejores Destinos</h4>
+							<h3>La Mejor experiencia</h3>
+							<p>Comodidad</p>
+							<div class="more">
+								<a href="single.html" class="hvr-shutter-in-vertical">Read More
+									<span class="glyphicon glyphicon-arrow-right"></span>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="agileits-banner-info">
+							<h4>Comodidad</h4>
+							<h3>Los Mejores Destinos</h3>
+							<p>La Mejor experiencia</p>
+							<div class="more">
+								<a href="single.html" class="hvr-shutter-in-vertical">Read More
+									<span class="glyphicon glyphicon-arrow-right"></span>
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--//slider-->
+
+{% endblock %}
+
+{% block otros %}
+	<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="col-md-7 banner_bottom_left">
+				{{ page.home_bienvenida1 }}
+			</div>
+			<div class="col-md-5 banner_bottom_right">
+				<div class="img_agile">
+					{{ page.home_imgbienvenida }}
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="banner_bottom_agile_grids">
+				<div class="wthree_banner_bottom_right_grids">
+					<div class="col-md-3 banner_bottom_right_grid">
+						{{ page.home_item1 }}
+					</div>
+					<div class="col-md-3 banner_bottom_right_grid">
+						{{ page.home_item2 }}
+					</div>
+					<div class="col-md-3 banner_bottom_right_grid">
+						{{ page.home_item3 }}
+					</div>
+					<div class="col-md-3 banner_bottom_right_grid">
+						{{ page.home_item4 }}
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- banner-bottom -->
+	<div class="services">
+		<div class="container">
+			<h3 class="title-w3-agileits two">Tours</h3>
+			<p class="quia">Machupicchu Tierras Inkas</p>
+			<div class="wthree_services_bottom_left banner_bottom_agile_grids">
+				<div class="wthree_services_bottom_left_grid">
+					{{ page.home_tours }}
+					<div class="clearfix"></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- grids -->
+	<div class="grids-w3l">
+		<div class="grids-agile">
+			<div class="col-md-6 agile-w3l-grids">
+				<h3 class="title-w3-agileits one">Nuestros Servicios</h3>
+				{{ page.home_slogan }}
+				<div class="w3lsstatsaits-info">
+					<div class="col-md-4 col-sm-4 col-xs-4 w3lsstatsaits-grid w3lsstatsaits-grid-1">
+						<div class="w3lsstatsaitsstats counter" data-slno='1' data-min='0' data-max='9000' data-delay='.5' data-increment="4">7000</div>
+						<p>Clientes Felices</p>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 w3lsstatsaits-grid w3lsstatsaits-grid-2">
+						<div class="w3lsstatsaitsstats counter" data-slno='1' data-min='0' data-max='50' data-delay='8' data-increment="1">+50</div>
+						<p>Tours</p>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 w3lsstatsaits-grid w3lsstatsaits-grid-3">
+						<div class="w3lsstatsaitsstats counter" data-slno='1' data-min='0' data-max='150' data-delay='.5' data-increment="11">100</div>
+						<p>Reconocimientos</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-md-6 agile-w3l-img-grids-w3ls">
+				{{ page.home_tours2 }}
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+	</div>
+	<!-- //grids -->
+
+	<!-- testimonials -->
+	<div class="testimonials">
+		<div class="container">
+			<h3 class="title-w3-agileits two">Testimonios</h3>
+			<p class="quia">Machupichu Tierras Inkas</p>
+			<div class="w3_testimonials_grids">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							{{ page.home_testimonios }}
+						</ul>
+					</div>
+				</section>
+
+			</div>
+		</div>
+	</div>
+	<!-- //testimonials -->
+{% endblock %}
+
+{% block banner %}banner_top
+{% endblock %}
